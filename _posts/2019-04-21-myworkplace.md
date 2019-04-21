@@ -1,3 +1,4 @@
+---
 layout: post
 
 title:  "我的工位"
@@ -6,7 +7,7 @@ comments: true
 
 categories: 自黑集锦
 
-
+---
 
 #### 我在学校的工位
 
