@@ -1,9 +1,12 @@
----
 layout: post
+
 title:  "我的工位"
+
 comments: true
+
 categories: 自黑集锦
----
+
+
 
 #### 我在学校的工位
 
@@ -11,7 +14,7 @@ categories: 自黑集锦
 
 ------
 
-![home](https://luyuxuan1998.github.io/pictures/home.jpg)
+<img src="https://luyuxuan1998.github.io/pictures/home.jpg" alt="home" width="540" height="400">
 
 ------
 
@@ -24,5 +27,7 @@ categories: 自黑集锦
 我也在积极用自己的能力，希望在给两个中心做事的同时，能够带出来一个无论学习上、技术上还是团结协作上都非常优秀的团队，在我毕业后也能继续在两个中心发挥学生们的作用，这是我回报老师们的方式。
 
 ------
+
+
 
 
