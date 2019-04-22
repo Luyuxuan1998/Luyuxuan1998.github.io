@@ -31,7 +31,8 @@ categories: 自黑集锦
 
 #### 工位电脑介绍
 
-
+---
+<img src="https://luyuxuan1998.github.io/pictures/computer.png" alt="computer" width="461" height="283">
 
 ---
 
