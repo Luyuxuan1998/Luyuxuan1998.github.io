@@ -1,9 +1,10 @@
 ---
 layout: post
+title:  "若强扭的瓜不甜，那不如放开，自由远行"
 comments: true
 categories: 感悟
+
 ---
-## 今日份感悟
 
 唉，今天被喜欢的女孩子好好地上了一课。
 
