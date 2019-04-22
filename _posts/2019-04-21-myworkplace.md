@@ -15,7 +15,7 @@ categories: 自黑集锦
 
 ---
 
-<img src="https://luyuxuan1998.github.io/pictures/home.jpg" alt="home" width="540" height="400">
+<img src="https://luyuxuan1998.github.io/pictures/home.jpg" alt="home" align="middle" width="540" height="400">
 
 ---
 
@@ -32,7 +32,7 @@ categories: 自黑集锦
 #### 工位电脑介绍
 
 ---
-<img src="https://luyuxuan1998.github.io/pictures/computer.png" alt="computer" width="800">
+<img src="https://luyuxuan1998.github.io/pictures/computer.png" alt="computer" align="middle" width="800">
 
 ---
 
