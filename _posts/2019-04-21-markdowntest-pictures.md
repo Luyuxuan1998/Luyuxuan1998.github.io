@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markdown测试一：添加图片测试"
+title:  "Markdown测试一：添加图片"
 comments: true
 categories: Markdown测试
 ---
