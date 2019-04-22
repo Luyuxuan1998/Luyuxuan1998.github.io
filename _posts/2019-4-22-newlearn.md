@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "若强扭的瓜不甜，那不如放开，自由远行"
+title:  "少了有些不甘，但多了太烦"
 comments: true
 categories: 感悟
 
@@ -33,4 +33,7 @@ categories: 感悟
 
 自由远行。
 
+---
 **少了有些不甘，但多了太烦**
+
+---
