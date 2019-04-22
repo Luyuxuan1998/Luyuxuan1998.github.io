@@ -32,7 +32,7 @@ categories: 自黑集锦
 #### 工位电脑介绍
 
 ---
-<img src="https://luyuxuan1998.github.io/pictures/computer.png" alt="computer" align="middle" width="800">
+<img src="https://luyuxuan1998.github.io/pictures/mycomputer.png" alt="computer" align="middle" width="800">
 
 ---
 
