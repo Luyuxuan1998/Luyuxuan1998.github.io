@@ -14,9 +14,9 @@ categories: 自黑集锦
 本人目前在中国民航大学机务维修虚拟仿真中心工作，废话少说，先放工位图
 
 ---
-
-<img src="https://luyuxuan1998.github.io/pictures/home.jpg" alt="home" align="middle" width="540" height="400">
-
+<div align=center>
+<img src="https://luyuxuan1998.github.io/pictures/home.jpg" alt="home" width="540" height="400">
+</div>
 ---
 
 #### 我与工程技术训练中心、虚拟仿真中心的故事
@@ -32,7 +32,9 @@ categories: 自黑集锦
 #### 工位电脑介绍
 
 ---
-<img src="https://luyuxuan1998.github.io/pictures/mycomputer.png" alt="computer" align="middle" width="800">
+<div align=center>
+<img src="https://luyuxuan1998.github.io/pictures/mycomputer.png" alt="computer" width="800">
+</div>
 
 ---
 
