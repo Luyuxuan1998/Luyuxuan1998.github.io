@@ -7,8 +7,7 @@ categories: 记录
 
 #### 树莓派开机自启动chrome浏览器并进入某网址
 
-目的：设置树莓派开机自启动chrome浏览器
-====================================
+##### 目的：设置树莓派开机自启动chrome浏览器
 
 首先我们要了解几个命令： 
 
@@ -32,7 +31,7 @@ chromium-browser "http://######" -kiosk
 
 (-kiosk表示开启浏览器超级全屏模式)
 
-现在我们要做的是开机就执行这个命令。
+##### 现在我们要做的是开机就执行这个命令。
 
 我们进入一个文件夹内
 {% highlight ruby %}
@@ -67,9 +66,14 @@ NotShowIn 我也不知道是啥（我只是个菜鸟）
 
 当然.desktop文件还有很多属性，有兴趣的可以Google一下。
 
-现在我们也要写一个.desktop文件了，就仿照上面，写一个简单点的。 
-==========================================================
-执行命令：vi my.desktop (新建一个文件my.desktop)然后在里面编辑就行，如下所示。 
+##### 现在我们也要写一个.desktop文件了，就仿照上面，写一个简单点的。 
+
+执行命令：
+{% highlight ruby %}
+vi my.desktop
+{% endhighlight %}
+
+(新建一个文件my.desktop)然后在里面编辑就行，如下所示。 
 
 
 保存后。重启。 
@@ -82,4 +86,5 @@ sudo reboot
 
 我的树莓派开机过一两秒才会自启动浏览器，需要耐心等待一会儿。
 
-* 网址：[https://blog.csdn.net/szu_Vegetable_Bird/article/details/80231660](https://blog.csdn.net/szu_Vegetable_Bird/article/details/80231660)
+---
+* 教程来源网址：[https://blog.csdn.net/szu_Vegetable_Bird/article/details/80231660](https://blog.csdn.net/szu_Vegetable_Bird/article/details/80231660)
