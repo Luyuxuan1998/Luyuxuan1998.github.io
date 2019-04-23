@@ -17,7 +17,6 @@ categories: 自黑集锦
 
 <div align=center>
 <img src="https://luyuxuan1998.github.io/pictures/home.jpg" alt="home" width="540" height="400">
-</div>
 
 ---
 
@@ -37,7 +36,6 @@ categories: 自黑集锦
 
 <div align=center>
 <img src="https://luyuxuan1998.github.io/pictures/mycomputer.png" alt="computer" width="800">
-</div>
 
 ---
 
