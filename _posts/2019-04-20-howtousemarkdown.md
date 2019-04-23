@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "记录"
+title:  "如何使用Markdown"
 comments: true
 categories: 记录
 ---
@@ -30,7 +30,3 @@ categories: 记录
 #### 树莓派开机自启动chrome浏览器并进入某网址
 
 * 网址：[https://blog.csdn.net/szu_Vegetable_Bird/article/details/80231660](https://blog.csdn.net/szu_Vegetable_Bird/article/details/80231660)
-
-#### 网易云音乐怎么生成HTML外链播放器
-
-* 网址：[https://jingyan.baidu.com/article/4e5b3e19fe033691911e2466.html](https://jingyan.baidu.com/article/4e5b3e19fe033691911e2466.html)
