@@ -11,6 +11,6 @@ categories: 记录
 * 介绍：[https://sspai.com/post/34962](https://sspai.com/post/34962)
 * 下载：[https://zh.snipaste.com/](https://zh.snipaste.com/)
 
-#### win7/810如何设置软件开机自启动
+#### win7/8/10如何设置软件开机自启动
 
 * 网址：[https://jingyan.baidu.com/article/0aa2237568f5ef88cc0d6413.html](https://jingyan.baidu.com/article/0aa2237568f5ef88cc0d6413.html)
