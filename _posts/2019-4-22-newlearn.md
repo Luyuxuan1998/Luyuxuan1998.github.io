@@ -6,6 +6,10 @@ categories: 感悟
 
 ---
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35528482&auto=1&height=66"></iframe>
+
+---
+
 唉，今天被喜欢的女孩子好好地上了一课。
 
 世界上有许许多多的人，
@@ -32,8 +36,5 @@ categories: 感悟
 让自己与喜欢的人，
 
 自由远行。
-
----
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35528482&auto=1&height=66"></iframe>
 
 ---
