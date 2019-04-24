@@ -9,19 +9,42 @@ categories: 教程
 ## 小知识
 
 ---
+### 1.Git简介
 
-### 1.Github Pages是什么？
+Git是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理。
+
+GitHub可以托管各种git库的站点。
+
+GitHub Pages免费的静态站点，三个特点：免费托管、自带主题、支持自制页面和Jekyll。
+
+
+---
+
+### 2.Github Pages是什么？
 Github Pages设计的初衷是为托管在GitHub上的项目提供介绍页面,开发者们可以通过GitHub Pages为他们的每一个项目创建一个用于介绍该项目的静态网站,不过由于他的空间免费而且稳定,因此用它搭建一个个人博客网站是再好不过了。
 
+（1）搭建简单而且免费；
+
+（2）支持静态脚本；
+
+（3）可以绑定你的域名；
+
+（4）DIY自由发挥，动手实践一些有意思的东西git,markdown,bootstrap,jekyll；
+
+（4）理想写博环境，git+github+markdown+jekyll；
+
 ---
 
-### 2.Jekyll是什么？
+### 3.Jekyll是什么？
 
-jekyll是一个简单的免费的Blog生成工具,将纯文本转化为静态网站和博客;由于咱们的GitHub Pages生成的是静态页面,每次更新博客都需要手动更改HTML,这就使得每次写博客都变得很麻烦,而用了这个工具以后,它会根据预先设置好的格式来生成博客内容,你就无需关心html代码,只需要把重心放在博客的写作上。
+Jekyll是一种简单的、适用于博客的、静态网站生成引擎。它使用一个模板目录作为网站布局的基础框架，支持Markdown、Textile等标记语言的解析，提供了模板、变量、插件等功能，最终生成一个完整的静态Web站点。说白了就是，只要安装Jekyll的规范和结构，不用写html，就可以生成网站。
+
+Jekyll使用Liquid模板语言，{{page.title}}表示文章标题，{{content}}表示文章内容。我们可以用两种Liquid标记语言：输出标记（output markup）和标签标记 (tag markup)。输出标记会输出文本（如果被引用的变量存在），而标签标记不会。输出标记是用双花括号分隔，而标签标记是用花括号-百分号对分隔。
+jekyll与github的关系：GitHub Pages一个由 GitHub 提供的用于托管项目主页或博客的服务，jekyll是后台所运行的引擎。
 
 ---
 
-### 3.Markdown是什么？
+### 4.Markdown是什么？
 
 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 
@@ -32,7 +55,9 @@ Markdown是一种纯文本格式的标记语言。通过简单的标记语法，
 
 #### 1.注册Github账户并建立仓库
 
-仓库名称为：<用户名.github.io>
+仓库名称为：<用户名.github.io>,如下图所示
+
+<img src="https://luyuxuan1998.github.io/pictures/personalsite.png" alt="personalsite" width="540">
 
 ---
 
