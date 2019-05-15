@@ -5,7 +5,7 @@ comments: true
 categories: 手把手教你制作树莓派魔镜
 
 ---
-#### 本系列文章：
+#### 本系列文章
 
 手把手教你做树莓派魔镜-MagicMirror（一）-准备工作  
 手把手教你做树莓派魔镜-MagicMirror（二）-烧写系统卡  
@@ -24,8 +24,10 @@ categories: 手把手教你制作树莓派魔镜
 原子镜：与显示器尺寸一致  
 HDMI线：连接显示器和树莓派，当然如果你显示器为VGA接口也没关系，用VGA转HDMI转接头就行  
 UPS不间断电源：通过一个电源输入，同时给树莓派和显示器供电，在停电情况下仍可持续运行一段时间  
+其他设备：鼠标、键盘
 
 ---
+
 * 教程来源网址：[https://blog.csdn.net/kaspar1992/article/details/84589951?from=singlemessage](https://blog.csdn.net/kaspar1992/article/details/84589951?from=singlemessage)
 
 ---
