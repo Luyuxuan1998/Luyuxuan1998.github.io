@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "制作树莓派魔镜"
+title:  "树莓派chrome浏览器实现网页全屏显示"
 comments: true
 categories: 记录
 ---
