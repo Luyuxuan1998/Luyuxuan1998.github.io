@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "手把手教你制作树莓派魔镜（一）：准备工作"
 comments: true
 categories: 手把手教你制作树莓派魔镜
 ---
