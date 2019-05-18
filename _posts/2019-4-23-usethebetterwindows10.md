@@ -13,4 +13,8 @@ categories: 记录
 
 #### win7/8/10如何设置软件开机自启动
 
-* 网址：[https://jingyan.baidu.com/article/0aa2237568f5ef88cc0d6413.html](https://jingyan.baidu.com/article/0aa2237568f5ef88cc0d6413.html)
+* 网址：[win7/8/10如何设置软件开机自启动](https://jingyan.baidu.com/article/0aa2237568f5ef88cc0d6413.html)
+
+#### Windows10升级后如何删除windows old文件夹
+
+* 网址：[Windows10升级后如何删除windows old文件夹](https://jingyan.baidu.com/article/cd4c29792f36cb756f6e604b.html)
