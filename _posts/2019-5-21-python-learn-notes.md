@@ -38,3 +38,58 @@ categories: python
 >>>print(ourteacher)  
 卢总最帅  
 {%endhighlight%}
+
+---
+#### 字符串
+示例
+
+{%highlight ruby%}
+>>>5+8  
+13  
+>>>'5'+'8'  
+'58'  
+{%endhighlight%}
+
+字符串内容需要出现单引号、双引号或反斜杠  
+需要使用转义符号(\)对字符串中的引号进行转义  
+
+{%highlight ruby%}
+>>>'Let's go'  
+SyntaxError:invalid syntax
+
+>>>'Let\'s go'  
+"Let's go"
+
+>>>"Let's go"  
+"Let's go"
+
+>>>string='C:\now'  
+>>>string  
+'C:\now'  
+>>>print(string)  
+C:  
+ow
+
+>>>string='C:\\now'
+>>>string  
+'C:\\now'  
+>>>print(string)  
+C:\now
+
+>>>string=r'C:\now'  
+>>>string  
+'C:\\now'  
+>>>print(string)  
+C:\now  
+{%endhighlight%}
+
+使用字符串需要注意，不能以反斜杠作为结尾，反斜杠放在字符串末尾表示字符串还未结束，换行继续，如果继续这样做就会报错
+
+{%highlight ruby%}
+>>>string='卢总最帅\'  
+SyntaxError:EOL while scanning string literal  
+>>>string=r'卢总最帅\'  
+SyntaxError:EOL while scanning string literal  
+{&endhighlight&}
+
+---
