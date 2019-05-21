@@ -28,7 +28,7 @@ categories: python
 >>>z=x+y  
 >>>print(z)  
 13  
-{%endhighliaght%}
+{%endhighlight%}
 
 同样也可以运用至字符串中
 
