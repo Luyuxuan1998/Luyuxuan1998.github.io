@@ -14,7 +14,7 @@ categories: python
 示例
 ---
 
-{%highlight ruby%}  
+{%highlight ruby%}
 >>>teacher="卢禹轩"  
 >>>print(teacher)  
 卢禹轩  
@@ -32,7 +32,7 @@ categories: python
 
 同样也可以运用至字符串中
 
-{%highlight ruby%}  
+{%highlight ruby%}
 >>>myteacher="卢总"  
 >>>yourteacher="最帅"  
 >>>ourteacher=myther+yourteacher  
