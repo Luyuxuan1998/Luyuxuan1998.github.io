@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "python学习笔记"
+title: "python学习笔记-变量、字符串与长字符串"
 categories: python
 
 ---
@@ -9,6 +9,8 @@ categories: python
 * [python下载地址](http://www.python.org)
 
 ---
+### 变量、字符串与长字符串 
+
 #### 变量
 
 示例
@@ -93,3 +95,18 @@ SyntaxError:EOL while scanning string literal
 {%endhighlight%}
 
 ---
+#### 长字符串
+使用三重引号字符串解决长字符串需要使用多个换行符的问题(“““内容”””)
+
+{%highlight ruby%}
+>>>print("""  
+路上行人急匆而过  
+在无人的街头  
+呼喊却已无效果  
+不原谅我  
+""")  
+路上行人急匆而过  
+在无人的街头  
+呼喊却已无效果  
+不原谅我  
+{%endhighlight%}
