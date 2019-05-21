@@ -10,11 +10,11 @@ categories: python
 
 ---
 #### 变量
-{%highlight ruby%}
->>>teacher="卢禹轩"
->>>print(teacher)
-卢禹轩
->>>teacher="卢总"
->>>print(teacher)
-卢总
+{%highlight ruby%}  
+>>>teacher="卢禹轩"  
+>>>print(teacher)  
+卢禹轩  
+>>>teacher="卢总"  
+>>>print(teacher)  
+卢总  
 {%endhighliaght%}
