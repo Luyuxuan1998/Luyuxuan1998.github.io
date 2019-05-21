@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "python学习笔记"l
+title: "python学习笔记"
 categories: python
 
 ---
