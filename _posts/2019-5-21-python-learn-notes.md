@@ -90,6 +90,6 @@ C:\now
 SyntaxError:EOL while scanning string literal  
 >>>string=r'卢总最帅\'  
 SyntaxError:EOL while scanning string literal  
-{&endhighlight&}
+{%endhighlight%}
 
 ---
