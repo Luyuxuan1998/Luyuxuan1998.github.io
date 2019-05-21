@@ -9,8 +9,9 @@ categories: python
 * [python下载地址](http://www.python.org)
 
 ---
-### 变量、字符串与长字符串 
+### 变量、字符串与长字符串
 
+---
 #### 变量
 
 示例
