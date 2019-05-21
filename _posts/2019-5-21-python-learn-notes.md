@@ -11,7 +11,7 @@ categories: python
 ---
 #### 变量
 
-##### 示例
+示例
 
 {%highlight ruby%}
 >>>teacher="卢禹轩"  
