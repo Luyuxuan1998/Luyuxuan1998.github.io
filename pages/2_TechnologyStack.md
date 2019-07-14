@@ -32,7 +32,7 @@ Autodesk类：3DsMax
 
 游戏引擎类：Unity3D，Prepar3D
 
-网站搭建类：EmpireCMS，CI框架，Jekyll
+网站搭建类：EmpireCMS，ZUI框架，Jekyll
 
 服务器系统类：Windows server，CentOS，Raspberry Pi，Deepin
 
