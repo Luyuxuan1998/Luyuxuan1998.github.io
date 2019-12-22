@@ -29,7 +29,7 @@ permalink: /projects/
   注意：只能通过中国民航大学校园网才能访问
 
   
-#### 卢禹轩的Github博客
+#### Wesley Lu的Github博客
 * 介绍：基于Github Page和jekyll搭建的个人博客
 * 时间：2019/04/20-现在
 * 网址：[luyuxuan1998.github.io](luyuxuan1998.github.io)
