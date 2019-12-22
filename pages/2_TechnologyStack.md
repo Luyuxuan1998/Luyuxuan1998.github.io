@@ -20,7 +20,7 @@ FPGA
 
 树莓派
 
-老旧电脑主机
+服务器开发
 
 ---
 
@@ -34,9 +34,9 @@ Autodesk类：3DsMax
 
 网站搭建类：EmpireCMS，ZUI框架，Jekyll
 
-服务器系统类：Windows server，CentOS，Raspberry Pi，Deepin
+服务器系统类：PVE，Windows server，CentOS，Raspberry Pi，Deepin
 
-电子设计类：Keil，quartus，AD，Multisim
+电子设计类：Keil，quartus，Altium Designer，Multisim
 
 ---
 
