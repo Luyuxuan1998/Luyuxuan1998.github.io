@@ -14,7 +14,7 @@ permalink: /projects/
 
 * 介绍：基于EmpireCMS和moyublog模板搭建的校园资源资讯分享网站
 * 时间：2018-现在
-* 网址： [www.caucbeiwo.cn](http://www.caucmeme.cn)
+* 网址： [www.caucmeme.cn](http://www.caucmeme.cn)
 注意：只能通过中国民航大学校园网才能访问
 
 
