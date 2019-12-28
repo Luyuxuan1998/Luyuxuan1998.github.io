@@ -161,12 +161,10 @@ SVG有一些预定义的形状元素，可被开发者使用和操作：
 
 <rect> 标签可用来创建矩形，以及矩形的变种：
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <rect width="300" height="100"
   style="fill:rgb(0,0,255);stroke-width:1;stroke:rgb(0,0,0)"/>
 </svg>
-{% highlight ruby %}
 
 **代码解析:**
 
@@ -178,13 +176,11 @@ SVG有一些预定义的形状元素，可被开发者使用和操作：
 
 **具有新属性的SVG 矩形**
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <rect x="50" y="20" width="150" height="150"
   style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;
   stroke-opacity:0.9"/>
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -195,23 +191,19 @@ SVG有一些预定义的形状元素，可被开发者使用和操作：
 
 **定义整个元素的不透明度**
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <rect x="50" y="20" width="150" height="150"
   style="fill:blue;stroke:pink;stroke-width:5;opacity:0.5"/>
 </svg>
-{% endhighlight %}
 
 - CSS opacity 属性用于定义了元素的透明值 (范围: 0 到 1)。
 
 **创建一个圆角矩形**
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
   style="fill:red;stroke:black;stroke-width:5;opacity:0.5"/>
 </svg>
-{% endhighlight %}
 
 - rx 和 ry 属性可使矩形产生圆角。
 
@@ -219,12 +211,10 @@ SVG有一些预定义的形状元素，可被开发者使用和操作：
 
 **<circle> 标签可用来创建一个圆**
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <circle cx="100" cy="50" r="40" stroke="black"
   stroke-width="2" fill="red"/>
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -237,12 +227,10 @@ SVG有一些预定义的形状元素，可被开发者使用和操作：
 
 椭圆与圆很相似。不同之处在于椭圆有不同的x和y半径，而圆的x和y半径是相同的：
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <ellipse cx="300" cy="80" rx="100" ry="50"
   style="fill:yellow;stroke:purple;stroke-width:2"/>
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -255,12 +243,10 @@ SVG有一些预定义的形状元素，可被开发者使用和操作：
 
 **<line> 元素是用来创建一个直线**
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <line x1="0" y1="0" x2="200" y2="200"
   style="stroke:rgb(255,0,0);stroke-width:2"/>
 </svg>
-{% endhighlight %}
 
 - x1 属性在 x 轴定义线条的开始
 - y1 属性在 y 轴定义线条的开始
@@ -277,69 +263,45 @@ polygon来自希腊。 "Poly" 意味 "many" ， "gon" 意味 "angle".
 
 **三角形**
 
-![image-20191228011622787](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228011622787.png)
-
-{% highlight ruby %}
 <svg  height="210" width="500">
   <polygon points="200,10 250,190 160,210"
   style="fill:lime;stroke:purple;stroke-width:1"/>
 </svg>
-{% endhighlight %}
 
 - points 属性定义多边形每个角的 x 和 y 坐标
 
 **四边形**
 
-![image-20191228011642868](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228011642868.png)
-
-{% highlight ruby %}
 <svg height="250" width="500">
   <polygon points="220,10 300,210 170,250 123,234" style="fill:lime;stroke:purple;stroke-width:1" />
 </svg>
-{% endhighlight %}
 
 **星形**
 
-![image-20191228011705469](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228011705469.png)
-
-{% highlight ruby %}
 <svg height="210" width="500">
   <polygon points="100,10 40,198 190,78 10,78 160,198"
   style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
 </svg>
-{% endhighlight %}
 
 改变 fill-rule 属性为 "evenodd":
 
-![image-20191228011724395](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228011724395.png)
-
-{% highlight ruby %}
 <svg height="210" width="500">
   <polygon points="100,10 40,198 190,78 10,78 160,198"
   style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
 </svg>
-{% endhighlight %}
 
 ## SVG 曲线
 
 **<polyline> 元素是用于创建任何只有直线的形状**
 
-![image-20191228011837577](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228011837577.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <polyline points="20,20 40,25 60,40 80,120 120,140 200,180"
   style="fill:none;stroke:black;stroke-width:3" />
 </svg>
-{% endhighlight %}
 
-![image-20191228011908105](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228011908105.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160" style="fill:white;stroke:red;stroke-width:4" />
 </svg>
-{% endhighlight %}
 
 ## SVG 路径
 
@@ -360,17 +322,12 @@ polygon来自希腊。 "Poly" 意味 "many" ， "gon" 意味 "angle".
 
 **注意：**以上所有命令均允许小写字母。大写表示绝对定位，小写表示相对定位。
 
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
     <path d="M150 0 L75 200 L225 200 Z" />
 </svg>
-{% endhighlight %}
 
 **创建了一个二次方贝塞尔曲线，A 和 C 分别是起点和终点，B 是控制点**
 
-![image-20191228012135710](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228012135710.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <path id="lineAB" d="M 100 350 l 150 -300" stroke="red"
   stroke-width="3" fill="none" />
@@ -394,35 +351,23 @@ polygon来自希腊。 "Poly" 意味 "many" ， "gon" 意味 "angle".
     <text x="400" y="350" dx="30">C</text>
   </g>
 </svg>
-{% endhighlight %}
 
 ## SVG 文本
 
 **<text> 元素用于定义文本**
 
-![image-20191228012416037](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228012416037.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <text x="0" y="15" fill="red">I love SVG</text>
 </svg>
-{% endhighlight %}
 
 旋转的文字：
 
-![image-20191228012403648](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228012403648.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <text x="0" y="15" fill="red" transform="rotate(30 20,40)">I love SVG</text>
 </svg>
-{% endhighlight %}
 
 路径上的文字：
 
-![image-20191228012429671](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228012429671.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
 xmlns:xlink="http://www.w3.org/1999/xlink">
    <defs>
@@ -432,28 +377,19 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
     <textPath xlink:href="#path1">I love SVG I love SVG</textPath>
   </text>
 </svg>
-{% endhighlight %}
 
 元素可以安排任何分小组与<tspan> 元素的数量。每个<tspan> 元素可以包含不同的格式和位置。几行文本(与 <tspan> 元素):
 
-![image-20191228012527055](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228012527055.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">  <text x="10" y="20" style="fill:red;">Several lines:    <tspan x="10" y="45">First line</tspan>    <tspan x="10" y="70">Second line</tspan>  </text></svg>
-{% endhighlight %}
 
 作为链接文本（ <a> 元素）：
 
-![image-20191228012650806](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228012650806.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
 xmlns:xlink="http://www.w3.org/1999/xlink">
   <a xlink:href="http://www.w3schools.com/svg/" target="_blank">
     <text x="0" y="15" fill="red">I love SVG</text>
   </a>
 </svg>
-{% endhighlight %}
 
 ## SVG Stroke 属性
 
@@ -468,8 +404,6 @@ SVG提供了一个范围广泛stroke 属性。在本章中，我们将看看下�
 
 **Stroke属性定义一条线，文本或元素轮廓颜色：**
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">  <g fill="none">    <path stroke="red" d="M5 20 l215 0" />    <path stroke="blue" d="M5 40 l215 0" />    <path stroke="black" d="M5 60 l215 0" />  </g></svg>
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <g fill="none">
     <path stroke="red" d="M5 20 l215 0" />
@@ -477,12 +411,9 @@ SVG提供了一个范围广泛stroke 属性。在本章中，我们将看看下�
     <path stroke="black" d="M5 60 l215 0" />
   </g>
 </svg>
-{% endhighlight %}
 
 **Tstroke- width属性定义了一条线，文本或元素轮廓厚度：**
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">  <g fill="none" stroke="black">    <path stroke-width="2" d="M5 20 l215 0" />    <path stroke-width="4" d="M5 40 l215 0" />    <path stroke-width="6" d="M5 60 l215 0" />  </g></svg>
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <g fill="none" stroke="black">
     <path stroke-width="2" d="M5 20 l215 0" />
@@ -490,14 +421,11 @@ SVG提供了一个范围广泛stroke 属性。在本章中，我们将看看下�
     <path stroke-width="6" d="M5 60 l215 0" />
   </g>
 </svg>
-{% endhighlight %}
 
 ### SVG stroke-linecap 属性
 
 **strokelinecap属性定义不同类型的开放路径的终结：**
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">  <g fill="none" stroke="black" stroke-width="6">    <path stroke-linecap="butt" d="M5 20 l215 0" />    <path stroke-linecap="round" d="M5 40 l215 0" />    <path stroke-linecap="square" d="M5 60 l215 0" />  </g></svg>
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <g fill="none" stroke="black" stroke-width="6">
     <path stroke-linecap="butt" d="M5 20 l215 0" />
@@ -505,14 +433,11 @@ SVG提供了一个范围广泛stroke 属性。在本章中，我们将看看下�
     <path stroke-linecap="square" d="M5 60 l215 0" />
   </g>
 </svg>
-{% endhighlight %}
 
 ### SVG stroke-dasharray 属性
 
 **strokedasharray属性用于创建虚线：**
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">  <g fill="none" stroke="black" stroke-width="4">    <path stroke-dasharray="5,5" d="M5 20 l215 0" />    <path stroke-dasharray="10,10" d="M5 40 l215 0" />    <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l215 0" />  </g></svg>
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <g fill="none" stroke="black" stroke-width="4">
     <path stroke-dasharray="5,5" d="M5 20 l215 0" />
@@ -520,7 +445,6 @@ SVG提供了一个范围广泛stroke 属性。在本章中，我们将看看下�
     <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l215 0" />
   </g>
 </svg>
-{% endhighlight %}
 
 ## SVG 滤镜
 
@@ -562,9 +486,6 @@ SVG可用的滤镜是：
 
 <feGaussianBlur> 元素是用于创建模糊效果：
 
-![image-20191228091350559](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228091350559.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="f1" x="0" y="0">
@@ -574,7 +495,6 @@ SVG可用的滤镜是：
   <rect width="90" height="90" stroke="green" stroke-width="3"
   fill="yellow" filter="url(#f1)" />
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -598,9 +518,6 @@ SVG可用的滤镜是：
 
 第一个例子替换一个矩形（带<feOffset>），然后混合变换图像顶部（含<feBlend>）：
 
-![image-20191228091326165](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228091326165.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="f1" x="0" y="0" width="200%" height="200%">
@@ -611,7 +528,6 @@ SVG可用的滤镜是：
   <rect width="90" height="90" stroke="green" stroke-width="3"
   fill="yellow" filter="url(#f1)" />
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -622,9 +538,6 @@ SVG可用的滤镜是：
 
 现在，偏移图像可以变的模糊（含<feGaussianBlur>）：
 
-![image-20191228091439587](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228091439587.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="f1" x="0" y="0" width="200%" height="200%">
@@ -636,7 +549,6 @@ SVG可用的滤镜是：
   <rect width="90" height="90" stroke="green" stroke-width="3"
   fill="yellow" filter="url(#f1)" />
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -644,9 +556,6 @@ SVG可用的滤镜是：
 
 现在，制作一个黑色的阴影：
 
-![image-20191228091716575](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228091716575.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="f1" x="0" y="0" width="200%" height="200%">
@@ -658,7 +567,6 @@ SVG可用的滤镜是：
   <rect width="90" height="90" stroke="green" stroke-width="3"
   fill="yellow" filter="url(#f1)" />
 </svg>
-{% endhighlight %}
 
 **代码解析：**
 
@@ -668,9 +576,6 @@ SVG可用的滤镜是：
 
 现在为阴影涂上一层颜色：
 
-![image-20191228091802312](C:\Users\卢禹轩\AppData\Roaming\Typora\typora-user-images\image-20191228091802312.png)
-
-{% highlight ruby %}
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="f1" x="0" y="0" width="200%" height="200%">
@@ -684,7 +589,7 @@ SVG可用的滤镜是：
   <rect width="90" height="90" stroke="green" stroke-width="3"
   fill="yellow" filter="url(#f1)" />
 </svg>
-{% endhighlight %}
+
 
 **代码解析：**
 
@@ -717,7 +622,7 @@ SVG渐变主要有两种类型：
 
 定义水平线性渐变从黄色到红色的椭圆形：
 
-{% highlight ruby %}
+
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -727,7 +632,7 @@ SVG渐变主要有两种类型：
   </defs>
   <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
 </svg>
-{% endhighlight %}
+
 
 **代码解析：**
 
@@ -740,7 +645,7 @@ SVG渐变主要有两种类型：
 
 定义一个垂直线性渐变从黄色到红色的椭圆形：
 
-{% highlight ruby %}
+
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -750,13 +655,13 @@ SVG渐变主要有两种类型：
   </defs>
   <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
 </svg>
-{% endhighlight %}
+
 
 
 
 定义一个椭圆形，水平线性渐变从黄色到红色并添加一个椭圆内文本：
 
-{% highlight ruby %}
+
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -768,7 +673,7 @@ SVG渐变主要有两种类型：
   <text fill="#ffffff" font-size="45" font-family="Verdana" x="150" y="86">
   SVG</text>
 </svg>
-{% endhighlight %}
+
 
 **代码解析：**
 
@@ -786,7 +691,7 @@ SVG渐变主要有两种类型：
 
 定义一个放射性渐变从白色到蓝色椭圆：
 
-{% highlight ruby %}
+
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
@@ -797,7 +702,7 @@ SVG渐变主要有两种类型：
   </defs>
   <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
 </svg>
-{% endhighlight %}
+
 
 **代码解析：**
 
@@ -810,7 +715,7 @@ SVG渐变主要有两种类型：
 
 定义放射性渐变从白色到蓝色的另一个椭圆：
 
-{% highlight ruby %}
+
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <radialGradient id="grad1" cx="20%" cy="30%" r="30%" fx="50%" fy="50%">
@@ -821,7 +726,6 @@ SVG渐变主要有两种类型：
   </defs>
   <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
 </svg>
-{% endhighlight %}
 
 ## SVG 参考手册
 
