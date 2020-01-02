@@ -4,7 +4,6 @@ title:  "Windows10环境下django-vue.js MMVVMC前后端框架安装步骤"
 comments: true
 categories: 教程
 ---
-# Windows10环境下django-vue.js MMVVMC前后端框架安装步骤
 
 ## 安装python及django环境
 ### 1、下载python3.7.6
