@@ -207,17 +207,17 @@ python manage.py runserver
 127.0.0.1:8000
 ```
 
-![image-20200102085930208](C:\Users\ylu\AppData\Roaming\Typora\typora-user-images\image-20200102085930208.png)
+![vue](..\pictures\vue.png)
 
 ```
 127.0.0.1:8000/api
 ```
 
-![image-20200102090013791](C:\Users\ylu\AppData\Roaming\Typora\typora-user-images\image-20200102090013791.png)
+![api](..\pictures\api.png)
 
 ```
 127.0.0.1:8000/admin
 ```
 
-![image-20200102090058265](C:\Users\ylu\AppData\Roaming\Typora\typora-user-images\image-20200102090058265.png)
+![django-admin](..\pictures\django-admin.png)
 
