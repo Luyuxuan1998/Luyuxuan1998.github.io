@@ -207,17 +207,17 @@ python manage.py runserver
 127.0.0.1:8000
 ```
 
-![vue](..\pictures\vue.png)
+![vue](../pictures/vue.png)
 
 ```
 127.0.0.1:8000/api
 ```
 
-![api](..\pictures\api.png)
+![api](../pictures/api.png)
 
 ```
 127.0.0.1:8000/admin
 ```
 
-![django-admin](..\pictures\django-admin.png)
+![django-admin](../pictures/django-admin.png)
 
