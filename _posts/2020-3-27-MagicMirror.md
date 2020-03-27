@@ -34,8 +34,10 @@ https://docs.magicmirror.builders/
 ![树莓派魔镜效果图](https://i.loli.net/2020/03/27/HUx8R7F1WZwJrla.jpg)
 
 
-**树莓派VMware虚拟机百度网盘下载链接：
-**https://pan.baidu.com/s/19zhgD9B7eIPAwWhD81monw **提取码：**xe8c
+**树莓派VMware虚拟机百度网盘下载链接：**
+
+
+https://pan.baidu.com/s/19zhgD9B7eIPAwWhD81monw **提取码：**xe8c
 
 ```
 虚拟机文件使用方法：
