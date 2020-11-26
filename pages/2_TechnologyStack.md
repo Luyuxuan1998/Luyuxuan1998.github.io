@@ -10,35 +10,41 @@ permalink: /TechnologyStack/
 
 #### 硬件开发
 
-51单片机
-
 STM32
 
 Arduino
 
 FPGA
 
-树莓派
+DSP
 
-服务器开发
+树莓派
 
 ---
 
 #### 软件与技术
 
-Adobe类：PS，AE，PR，ME，DW，XD
+编程语言：C、C++、C#、Python
 
-Autodesk类：3DsMax
+建模工具：Matlab(Simulink)
 
-游戏引擎类：Unity3D，Prepar3D
+Adobe：PS，AE，PR，ME，DW，XD
 
-网站搭建类：EmpireCMS，ZUI框架，Jekyll
+Autodesk：3DsMax
 
-服务器系统类：PVE，Windows server，CentOS，Raspberry Pi，Deepin
+游戏引擎：Unity3D，UE4, Prepar3D
 
-电子设计类：Keil，quartus，Altium Designer，Multisim
+网站搭建：Vue3, Django, EmpireCMS，Jekyll
+
+系统：PVE，Windows server，CentOS，Raspberry Pi，Deepin，SylixOS(实时操作系统)
+
+电子设计：Keil，Quartus，Altium Designer，Multisim
 
 ---
+
+#### 兴趣爱好
+
+AR/VR、模拟飞行、编程
 
 
 
