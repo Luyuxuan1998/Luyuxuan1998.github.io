@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux环境下创建config.h文件"
-date: 2020-12-14 20:00:00 +0800
+comments: true
 categories: Unix网络编程——进程间通信
 ---
 ## 描述
