@@ -5,15 +5,18 @@ comments: true
 categories: DCPI-Core
 
 ---
-# DCPI Core: RTOS选型
 
 ## Posix简介
+
+---
 
 POSIX（Portable Operating System Interface of UNIX），表示可移植操作系统接口。虽然POSIX中的X代表的是UNIX，但其实POSIX并不局限于UNIX，许多其它的OS也可以符合POSIX标准。
 
 POSIX是IEEE为在各种OS上运行的软件而定义的一组API接口标准，目标是获得源代码级别的软件可移植性。也就是说，在一个符合POSIX标准的OS上开发的应用程序，在其它的POSIX操作系统上无需修改也可以直接编译运行。
 
 ## 嵌入式软件使用POSIX接口的优缺点
+
+---
 
 ### 优点
 
@@ -41,6 +44,8 @@ POSIX API的文档非常丰富，随便找一下就是一大堆，各国语言�
 总而言之，使用POSIX虽然稍微会降低一点执行效率，但是可以大大提供开发效率，总体上讲是利大于弊的。
 
 ## 主流嵌入式操作系统（RTOS）
+
+---
 
 满足实时控制要求的嵌入式操作系统（RTOS）操作系统，以下介绍14种主流的RTOS，分别为μClinux、μC/OS-II、eCos、FreeRTOS、mbed OS、RTX、Vxworks、QNX、NuttX，而国产的嵌入式操作系统包括都江堰操作系统(djyos)、Alios Things、Huawei LiteOS、RT-Thread、SylixOS。
 
@@ -192,5 +197,7 @@ RT-Thread是一个集实时操作系统（RTOS）内核、中间件组件和开�
 
 ## 总结
 
-推荐使用RTOS：RT-Thread，FreeRTOS。
+---
+
+推荐使用RTOS：**RT-Thread，FreeRTOS**。
 
